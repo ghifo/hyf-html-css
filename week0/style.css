@@ -1,0 +1,98 @@
+body {
+    margin:0px;
+    background-color: rgb(255,248,220);
+  }
+     h1 {
+    color: rgb( 84, 42, 12);
+    text-shadow: 2px 2px black;    /*I have looked for this on internet*/
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: cursive;
+  }
+  h2 {
+    color: rgb(214,77,77);
+  }
+  h4 {
+    color: rgb(210,105,30);
+    font-style: italic;
+  }
+  
+  
+  img {
+    width: 15%;
+    margin-left: 2%;
+    border-radius: 90%;
+  }
+  li {
+    margin:20px;
+    padding:16px;
+    list-style: none;
+    border-style: outset;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    font-size:130%;     /*I have looked for this on internet*/
+  }
+  #name {
+    text-shadow: 1px 1px salmon;        /*I have looked for this on internet*/
+    font-style:italic;
+    float:right;
+    padding-right: 15px;
+    font-size:130%;     /*I have looked for this on internet*/
+  }
+  
+  .bio {
+    color:grey;
+  }
+  .excerpt{
+    font-family: fantasy;
+    color: rgb(227,158,84);
+    
+  }
+  .quote{
+    float:right;
+    width:80%;
+  }
+  .sonnet {
+    font-family: monospace;
+    font-size: 1.2em;
+  }
+  
+  #header {
+   background-image: url("https://i.etsystatic.com/10519632/c/1814/1439/398/137/il/c5c268/1283692632/il_340x270.1283692632_x6x3.jpg");             /*I have looked for this on internet*/
+    margin-top:0px;
+    position:fixed;
+    top:0px;
+    width:100%;
+    height:100px;
+  }
+  .poem{
+    color:brown;
+    font-family: fantasy;
+  }
+  #column{
+    position:fixed;
+    margin-top: 95px;
+    float: left;
+    width:20%;
+    padding: 1%;
+    background: transparent;
+  
+  }
+  #content{
+    margin-top: 90px;
+    padding:1%;
+    float:right;
+    width: 75%;
+    height: 500px;
+    overflow: auto;
+    background-color:lightyellow;
+    border:10px ridge rgb(245, 179, 122);
+  
+  }
+  .extra {
+    font-style: italic;
+  }
