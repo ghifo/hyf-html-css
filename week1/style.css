@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(to bottom right,rgb(253, 247, 252),rgb(205, 222, 248));
+    margin: 2em;
+}
+.heading {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 2px 2px rgb(75, 112, 236);
+  background: linear-gradient(#f3949c, #bcc0f3);
+  }
+.content {
+    margin: 2em;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.picture {
+    width: 75%;
+}
+.info {
+    width: 40%;
+    line-height: 1.5em;
+}
+div ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.title {
+    color:rgb(75, 112, 236);
+  }
+  .place {
+    color:rgb(69, 13, 141);
+  }
+  .date {
+    margin-left: 2em;
+  }
+[target] {
+    text-decoration: none;
+    color: gray;
+}
